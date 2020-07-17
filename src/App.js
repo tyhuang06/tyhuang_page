@@ -1,26 +1,48 @@
 import React from 'react';
-import logo from './logo.svg';
+import {
+  BrowserRouter as Router,
+  Route,
+  Link
+} from 'react-router-dom';
+import { 
+  Container,
+  Nav,
+  Navbar 
+} from 'react-bootstrap';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      title: 'TY Huang',
+      headerLinks: [
+        { title: 'Home', path: '/'},
+        { title: 'Projects', path: '/projects'},
+        { title: 'Contact', path: '/contact'}
+      ],
+      home: {
+        title: 'About Me'
+      },
+      projects: {
+        title: 'My Projects'
+      },
+      contact: {
+        title: 'Contact Me'
+      }
+    }
+  }
+  
+  render() {
+    return (
+      <Router>
+        <Container fluid={true}>
+          <div>Hello World</div>
+        </Container>
+      </Router>
+    );
+  }
+  
 }
 
 export default App;
