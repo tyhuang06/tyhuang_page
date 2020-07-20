@@ -4,6 +4,7 @@ import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import Modal from 'react-bootstrap/Modal';
 
 class Projects extends React.Component {
     constructor(props) {
@@ -38,9 +39,21 @@ class Projects extends React.Component {
         }
     }
 
+    // handleClose = (id) => {
+    //     let items = this.state.items;
+    //     items[id].selected = false;
+
+    // }
+
+    // handleOpen = (id) => {
+    //     let items = this.state.items;
+    //     items[id].selected = true;
+    // }
+
     makeItems = (items) => {
         return items.map(item => {
             return (
+                <React.Fragment>
                 <Col md={6}>
                     <div className="project_box">
                         <Card.Img variant="top" src={item.img} />
@@ -49,21 +62,36 @@ class Projects extends React.Component {
                             <Card.Text>
                                 {item.desc_simple}
                             </Card.Text>
-                            {/* <Button variant="primary">Go somewhere</Button> */}
+                            <Button variant="primary" onClick={() => this.handleOpen(item.id)}>Go somewhere</Button>
                         </Card.Body>
                     </div>
                 </Col>
+                {/* <Modal show={item.selected} onHide={() => this.handleClose(item.id)}>
+                    <Modal.Header closeButton>
+                    <Modal.Title>{item.title}</Modal.Title>
+                    </Modal.Header>
+                    <Modal.Body>{item.desc_full}</Modal.Body>
+                </Modal> */}
+                </React.Fragment>
             );
         });
     }
 
     render() {
         return(
-            <Container id="project">
-                <Row>
-                    {this.makeItems(this.state.items)}
-                </Row>
-            </Container>
+            <React.Fragment>
+                <Container id="project">
+                    <Row>
+                        <Col sm={12} className="project_title">
+                            <h2>PROJECTS</h2>
+                            <p>Check out my latest projects</p>
+                        </Col>
+                    </Row>
+                    <Row>
+                        {this.makeItems(this.state.items)}
+                    </Row>
+                </Container>
+            </React.Fragment>
         );
     }
 }

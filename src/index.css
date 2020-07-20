@@ -95,3 +95,8 @@ code {
   height: 40vh;
   object-fit: cover;
 }
+
+#project .project_title {
+  text-align: center;
+  padding-bottom: 2rem;
+}
