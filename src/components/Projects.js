@@ -1,6 +1,9 @@
 import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Card from 'react-bootstrap/Card';
+import Button from 'react-bootstrap/Button';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
 class Projects extends React.Component {
     constructor(props) {
@@ -37,15 +40,26 @@ class Projects extends React.Component {
 
     makeItems = (items) => {
         return items.map(item => {
-            return <Card></Card>
+            return (
+                <Card style={{ width: '18rem' }}>
+                    <Card.Img variant="top" src={item.img} />
+                    <Card.Body>
+                        <Card.Title>{item.title}</Card.Title>
+                        <Card.Text>
+                            {item.desc_simple}
+                        </Card.Text>
+                        <Button variant="primary">Go somewhere</Button>
+                    </Card.Body>
+                </Card>
+            );
         });
     }
 
     render() {
         return(
-            <Container className="p-0" fluid={true}>
+            <Container>
                 <Row>
-                    {}
+                    {this.makeItems(this.state.items)}
                 </Row>
             </Container>
         );
