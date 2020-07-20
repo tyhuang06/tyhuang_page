@@ -11,3 +11,61 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* Intro */
+#intro_content {
+  min-height: 100%;
+  min-height: 100vh;
+  text-align: center;
+  display: block;
+  padding-top: calc(10rem + 56px);
+}
+
+
+/* About */
+.about_box {
+  padding: 3rem 1.25rem;
+  position: relative;
+  background-color: white;
+  margin-bottom: 3rem;
+  z-index: 2;
+  box-shadow: 0 1px 1px 0 rgba(0,0,0,.06), 0 2px 5px 0 rgba(0,0,0,.2);
+}
+
+.about_img {
+  text-align: center;
+}
+
+/* Resume */
+#resume {
+  background: url(./images/laptop.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+}
+
+#resume .overlay {
+  background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.73) 17%, rgba(0, 0, 0, 0.66) 35%, rgba(0, 0, 0, 0.55) 62%, rgba(0, 0, 0, 0.4) 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(0, 0, 0, 0.8)), color-stop(17%, rgba(0, 0, 0, 0.73)), color-stop(35%, rgba(0, 0, 0, 0.66)), color-stop(62%, rgba(0, 0, 0, 0.55)), color-stop(100%, rgba(0, 0, 0, 0.4)));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.73) 17%, rgba(0, 0, 0, 0.66) 35%, rgba(0, 0, 0, 0.55) 62%, rgba(0, 0, 0, 0.4) 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.73) 17%, rgba(0, 0, 0, 0.66) 35%, rgba(0, 0, 0, 0.55) 62%, rgba(0, 0, 0, 0.4) 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.73) 17%, rgba(0, 0, 0, 0.66) 35%, rgba(0, 0, 0, 0.55) 62%, rgba(0, 0, 0, 0.4) 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.73) 17%, rgba(0, 0, 0, 0.66) 35%, rgba(0, 0, 0, 0.55) 62%, rgba(0, 0, 0, 0.4) 100%);
+  /* W3C */
+  filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#cc000000', endColorstr='#66000000', GradientType=0);
+  /* IE6-9 */
+  padding: 80px 0;
+  background-attachment: fixed;
+}
+
+
+
