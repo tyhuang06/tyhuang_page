@@ -67,5 +67,31 @@ code {
   background-attachment: fixed;
 }
 
+/* Projects */
+.project_box {
+  box-shadow: 0 13px 8px -10px rgba(0,0,0,.1);
+  margin-bottom: 3rem;
+  backface-visibility: hidden;
+}
 
+#project {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
 
+#project .row {
+  display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+#project .card-body {
+  padding: 2rem 3% 1rem 4%;
+}
+
+#project .card-img-top {
+  width: 100%;
+  height: 40vh;
+  object-fit: cover;
+}
