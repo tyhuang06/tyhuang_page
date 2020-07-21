@@ -55,14 +55,14 @@ class Projects extends React.Component {
             return (
                 <React.Fragment>
                 <Col md={6}>
-                    <div className="project_box">
+                    <div className="project_box" onClick={() => this.handleOpen(item.id)}>
                         <Card.Img variant="top" src={item.img} />
                         <Card.Body>
                             <Card.Title>{item.title}</Card.Title>
                             <Card.Text>
                                 {item.desc_simple}
                             </Card.Text>
-                            <Button variant="primary" onClick={() => this.handleOpen(item.id)}>Go somewhere</Button>
+                            <Button variant="primary">Go somewhere</Button>
                         </Card.Body>
                     </div>
                 </Col>
@@ -73,7 +73,7 @@ class Projects extends React.Component {
                     onHide={() => this.handleClose()}
                 >
                     <Modal.Header closeButton>
-                    <Modal.Title>{item.title}</Modal.Title>
+                        <Modal.Title>{item.title}</Modal.Title>
                     </Modal.Header>
                     <Modal.Body>
                         <p>
@@ -86,7 +86,7 @@ class Projects extends React.Component {
                         
                     </Modal.Body>
                     <Modal.Footer>
-                        <Button>Close</Button>
+                        <Button onClick={() => this.handleClose()}>Close</Button>
                     </Modal.Footer>
                 </Modal>
                 </React.Fragment>
