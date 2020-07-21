@@ -8,6 +8,7 @@ import About from "./components/About";
 import Intro from "./components/Intro";
 import Resume from "./components/Resume";
 import Projects from "./components/Projects";
+import Contact from "./components/Contact";
 
 class App extends React.Component {
     constructor(props) {
@@ -39,6 +40,7 @@ class App extends React.Component {
 				<About />
 				<Resume />
 				<Projects />
+                <Contact />
                 {/* <Footer /> */}
             </React.Fragment>
         );
