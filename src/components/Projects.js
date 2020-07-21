@@ -5,6 +5,7 @@ import Button from 'react-bootstrap/Button';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Modal from 'react-bootstrap/Modal';
+import Image from 'react-bootstrap/Image';
 
 class Projects extends React.Component {
     constructor(props) {
@@ -16,39 +17,38 @@ class Projects extends React.Component {
                     title: 'Yelpcamp',
                     desc_simple: 'A camping website',
                     desc_full: "sum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, re",
-                    img: 'https://www.hintokrivercamp.com/wp-content/uploads/2019/11/02.jpg',
-                    selected: false
+                    img: 'https://www.hintokrivercamp.com/wp-content/uploads/2019/11/02.jpg'
                 },
                 {
                     id:1,
                     title: 'Yelpcamp2',
                     desc_simple: 'A camping website',
                     desc_full: "sum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, re",
-                    img: 'https://media-cdn.tripadvisor.com/media/photo-s/13/b8/8a/28/olakira-camp-asilia-africa.jpg',
-                    selected: false
+                    img: 'https://media-cdn.tripadvisor.com/media/photo-s/13/b8/8a/28/olakira-camp-asilia-africa.jpg'
                 },
                 {
                     id:2,
                     title: 'Yelpcamp3',
                     desc_simple: 'A camping website',
                     desc_full: "sum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, re",
-                    img: 'https://www.hintokrivercamp.com/wp-content/uploads/2019/11/02.jpg',
-                    selected: false
+                    img: 'https://www.hintokrivercamp.com/wp-content/uploads/2019/11/02.jpg'
                 }
-            ]
+            ],
+            activeModal: null
         }
     }
 
-    // handleClose = (id) => {
-    //     let items = this.state.items;
-    //     items[id].selected = false;
+    handleClose = () => {
+        this.setState({
+            activeModal: null
+        });
+    }
 
-    // }
-
-    // handleOpen = (id) => {
-    //     let items = this.state.items;
-    //     items[id].selected = true;
-    // }
+    handleOpen = (id) => {
+        this.setState({
+            activeModal: id
+        });
+    }
 
     makeItems = (items) => {
         return items.map(item => {
@@ -66,12 +66,29 @@ class Projects extends React.Component {
                         </Card.Body>
                     </div>
                 </Col>
-                {/* <Modal show={item.selected} onHide={() => this.handleClose(item.id)}>
+                <Modal 
+                    className="project_full_info"
+                    centered 
+                    show={this.state.activeModal === item.id} 
+                    onHide={() => this.handleClose()}
+                >
                     <Modal.Header closeButton>
                     <Modal.Title>{item.title}</Modal.Title>
                     </Modal.Header>
-                    <Modal.Body>{item.desc_full}</Modal.Body>
-                </Modal> */}
+                    <Modal.Body>
+                        <p>
+                            <Image fluid src={item.img} />
+                        </p>
+                        
+                        <p>
+                            {item.desc_full}
+                        </p>
+                        
+                    </Modal.Body>
+                    <Modal.Footer>
+                        <Button>Close</Button>
+                    </Modal.Footer>
+                </Modal>
                 </React.Fragment>
             );
         });
