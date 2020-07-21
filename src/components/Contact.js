@@ -42,7 +42,7 @@ function Contact() {
     };
 
     return (
-        <Container>
+        <Container id="contact-box">
             <Row>
                 <Col md={6}>
                     <h2>Get in Touch</h2>
@@ -53,17 +53,6 @@ function Contact() {
                     <div>
                         <form onSubmit={handleOnSubmit}>
                         <div class="form-group">
-                            <label htmlFor="email">Email address</label>
-                            <input 
-                                type="email" 
-                                class="form-control" 
-                                id="email"
-                                placeholder="Enter email"
-                                name="email"
-                                required
-                            />
-                        </div>
-                        <div class="form-group">
                             <label htmlFor="name">Name</label>
                             <input 
                                 type="text" 
@@ -71,6 +60,17 @@ function Contact() {
                                 id="name"
                                 name="name"
                                 placeholder="Your Name"
+                                required
+                            />
+                        </div>
+                        <div class="form-group">
+                            <label htmlFor="email">Email address</label>
+                            <input 
+                                type="email" 
+                                class="form-control" 
+                                id="email"
+                                placeholder="Enter email"
+                                name="email"
                                 required
                             />
                         </div>

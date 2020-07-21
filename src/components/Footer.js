@@ -1,19 +1,13 @@
 import React from 'react';
-import {
-    Container,
-    Row,
-    Col
-} from 'react-bootstrap';
+import Container from 'react-bootstrap/Container';
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
 
 function Footer() {
     return(
-        <footer className="footer mt-5">
-            <Container fluid={true}>
-                <Row className="border-top justify-content-between p-3">
-                    <Col className="p-0" md={3} sm={12}>
-                        TY Huang
-                    </Col>
-                </Row>
+        <footer className="footer">
+            <Container>
+                <span>TY Huang 2020</span>
             </Container>
         </footer>
     );

@@ -54,7 +54,7 @@ class Projects extends React.Component {
         return items.map(item => {
             return (
                 <React.Fragment>
-                <Col md={6}>
+                <Col sm={6} md={4}>
                     <div className="project_box" onClick={() => this.handleOpen(item.id)}>
                         <Card.Img variant="top" src={item.img} />
                         <Card.Body>
