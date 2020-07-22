@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import Container from "react-bootstrap/container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
 import axios from "axios";
 
@@ -47,7 +46,21 @@ function Contact() {
                 <Col md={6}>
                     <h2>Get in Touch</h2>
                     <div className="line"></div>
-                    <p>blah blah</p>
+                    <p>Contact Me!</p>
+                    <p>
+                        <a
+							href="https://github.com/tyhuang06"
+							target="_blank"
+                        >
+                            <i class="fa fa-2x fa-github" aria-hidden="true"></i>
+						</a>
+                        <a
+							href="https://www.facebook.com/profile.php?id=100003970757498"
+							target="_blank"
+                        >
+                            <i class="fa fa-2x fa-facebook-official" aria-hidden="true"></i>
+						</a>
+                    </p>
                 </Col>
                 <Col md={6}>
                     <h2>Send a Message</h2>

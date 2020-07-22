@@ -10,8 +10,7 @@ class Intro extends React.Component {
                 <Jumbotron id='intro_content'>
                     <h1>Hi! I'm Tzu-Yu Huang</h1>
                     <p>
-                        This is a simple hero unit, a simple jumbotron-style component for calling
-                        extra attention to featured content or information.
+                    2021年秋季打算赴美攻讀資工碩士，正在尋找一年左右的實習、正職機會。
                     </p>
                 </Jumbotron>
             </Container>

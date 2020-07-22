@@ -18,10 +18,13 @@ class About extends React.Component {
                                     <Image fluid src={Photo} roundedCircle /> 
                                 </Col>
                                 <Col md={8}>
-                                    <h3>About Me</h3>
+                                    <h2>About Me</h2>
                                     <div className="line"></div>
-                                    <p>This is a simple hero unit, a simple jumbotron-style component for calling
-                                    extra attention to featured content or information.</p>
+                                    <p>
+                                        清大經濟系畢業，在學校時修過一些資工課程，畢業後自學前後端技術，願意學習且學習力強。
+                                        曾有海外實習和國際志工經驗，有良好的溝通與合作能力，熱愛挑戰並樂於踏出舒適圈 。
+                                        
+                                    </p>
                                 </Col>
                             </Row>
                         </div>
