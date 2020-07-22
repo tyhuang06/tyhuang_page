@@ -31,6 +31,11 @@ class Projects extends React.Component {
                                 <li>串接Mapbox API以顯示露營地所在的地圖位置</li>
                                 <li>部署在Heroku</li>
                             </ul>
+                            <div className="view-btn-contain">
+                                <a class="view-btn" href="https://yelp-camp-deploy.herokuapp.com/" target ="_blank">Demo</a>
+                                <a class="view-btn" href="https://github.com/tyhuang06/Yelpcamp" target ="_blank">Source</a>
+                            </div>
+                            
                         </React.Fragment>,
                     img: img_yelpcamp
                 },
@@ -45,7 +50,12 @@ class Projects extends React.Component {
                             <ul>
                                 <li>React + React Bootstrap</li>
                                 <li>使用Formspree在只使用前端的情況下實作寄信表單</li>
+                                <li>部屬在GitHub Pages</li>
                             </ul>
+                            <div className="view-btn-contain">
+                                <a class="view-btn" href="https://tyhuang06.github.io/tyhuang_page/" target ="_blank">Demo</a>
+                                <a class="view-btn" href="https://github.com/tyhuang06/tyhuang_page" target ="_blank">Source</a>
+                            </div>
                         </React.Fragment>,
                     img: img_portfolio
                 },
@@ -61,6 +71,9 @@ class Projects extends React.Component {
                                 <li>C++ 和 Allegro Library</li>
                                 <li>將BFS演算法應用在敵人的自動尋路</li>
                             </ul>
+                            <div className="view-btn-contain">
+                                <a class="view-btn" href="https://github.com/tyhuang06/Bomberman" target ="_blank">Source</a>
+                            </div>
                         </React.Fragment>,
                     img: img_bomberman
                 }
