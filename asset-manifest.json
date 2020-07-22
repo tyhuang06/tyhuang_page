@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/tyhuang_page/static/css/main.4a43c215.chunk.css",
-    "main.js": "/tyhuang_page/static/js/main.7b52053e.chunk.js",
-    "main.js.map": "/tyhuang_page/static/js/main.7b52053e.chunk.js.map",
+    "main.css": "/tyhuang_page/static/css/main.c8249efc.chunk.css",
+    "main.js": "/tyhuang_page/static/js/main.2ed260d1.chunk.js",
+    "main.js.map": "/tyhuang_page/static/js/main.2ed260d1.chunk.js.map",
     "runtime-main.js": "/tyhuang_page/static/js/runtime-main.be4d640b.js",
     "runtime-main.js.map": "/tyhuang_page/static/js/runtime-main.be4d640b.js.map",
     "static/css/2.af3c1da9.chunk.css": "/tyhuang_page/static/css/2.af3c1da9.chunk.css",
-    "static/js/2.ae171e5f.chunk.js": "/tyhuang_page/static/js/2.ae171e5f.chunk.js",
-    "static/js/2.ae171e5f.chunk.js.map": "/tyhuang_page/static/js/2.ae171e5f.chunk.js.map",
+    "static/js/2.4d6c2c4a.chunk.js": "/tyhuang_page/static/js/2.4d6c2c4a.chunk.js",
+    "static/js/2.4d6c2c4a.chunk.js.map": "/tyhuang_page/static/js/2.4d6c2c4a.chunk.js.map",
     "index.html": "/tyhuang_page/index.html",
-    "precache-manifest.28aa99ee946cbf8b8d6c398ffaa86266.js": "/tyhuang_page/precache-manifest.28aa99ee946cbf8b8d6c398ffaa86266.js",
+    "precache-manifest.18451fac72a12c17f645879ec25d7c73.js": "/tyhuang_page/precache-manifest.18451fac72a12c17f645879ec25d7c73.js",
     "service-worker.js": "/tyhuang_page/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/tyhuang_page/static/css/2.af3c1da9.chunk.css.map",
-    "static/css/main.4a43c215.chunk.css.map": "/tyhuang_page/static/css/main.4a43c215.chunk.css.map",
-    "static/js/2.ae171e5f.chunk.js.LICENSE.txt": "/tyhuang_page/static/js/2.ae171e5f.chunk.js.LICENSE.txt",
+    "static/css/main.c8249efc.chunk.css.map": "/tyhuang_page/static/css/main.c8249efc.chunk.css.map",
+    "static/js/2.4d6c2c4a.chunk.js.LICENSE.txt": "/tyhuang_page/static/js/2.4d6c2c4a.chunk.js.LICENSE.txt",
     "static/media/about_photo.jpg": "/tyhuang_page/static/media/about_photo.37abc574.jpg",
     "static/media/bomberman.jpg": "/tyhuang_page/static/media/bomberman.29f1283d.jpg",
     "static/media/index.css": "/tyhuang_page/static/media/laptop.6d3e94be.jpg",
@@ -24,8 +24,8 @@
   "entrypoints": [
     "static/js/runtime-main.be4d640b.js",
     "static/css/2.af3c1da9.chunk.css",
-    "static/js/2.ae171e5f.chunk.js",
-    "static/css/main.4a43c215.chunk.css",
-    "static/js/main.7b52053e.chunk.js"
+    "static/js/2.4d6c2c4a.chunk.js",
+    "static/css/main.c8249efc.chunk.css",
+    "static/js/main.2ed260d1.chunk.js"
   ]
 }
