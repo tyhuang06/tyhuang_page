@@ -7,7 +7,7 @@ function Footer() {
     return(
         <footer className="footer">
             <Container>
-                <span>TY Huang 2020</span>
+                <span>Copyright © TY Huang 2020</span>
             </Container>
         </footer>
     );

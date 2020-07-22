@@ -17,6 +17,7 @@ class About extends React.Component {
                                 </Col>
                                 <Col md={8}>
                                     <h3>About Me</h3>
+                                    <div className="line"></div>
                                     <p>This is a simple hero unit, a simple jumbotron-style component for calling
                                     extra attention to featured content or information.</p>
                                 </Col>

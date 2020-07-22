@@ -8,13 +8,10 @@ class Intro extends React.Component {
         return(
             <Container className="p-0" fluid={true}>
                 <Jumbotron id='intro_content'>
-                    <h1>Hi! I'm TY</h1>
+                    <h1>Hi! I'm Tzu-Yu Huang</h1>
                     <p>
                         This is a simple hero unit, a simple jumbotron-style component for calling
                         extra attention to featured content or information.
-                    </p>
-                    <p>
-                        <Button variant="primary">Learn more</Button>
                     </p>
                 </Jumbotron>
             </Container>

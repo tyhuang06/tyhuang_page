@@ -101,6 +101,7 @@ class Projects extends React.Component {
                     <Row>
                         <Col sm={12} className="project_title">
                             <h2>PROJECTS</h2>
+                            <div className="line-pj"></div>
                             <p>Check out my latest projects</p>
                         </Col>
                     </Row>

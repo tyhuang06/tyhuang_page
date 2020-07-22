@@ -46,10 +46,12 @@ function Contact() {
             <Row>
                 <Col md={6}>
                     <h2>Get in Touch</h2>
+                    <div className="line"></div>
                     <p>blah blah</p>
                 </Col>
                 <Col md={6}>
                     <h2>Send a Message</h2>
+                    <div className="line"></div>
                     <div>
                         <form onSubmit={handleOnSubmit}>
                         <div class="form-group">
