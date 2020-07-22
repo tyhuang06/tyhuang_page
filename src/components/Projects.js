@@ -7,6 +7,10 @@ import Col from 'react-bootstrap/Col';
 import Modal from 'react-bootstrap/Modal';
 import Image from 'react-bootstrap/Image';
 
+import img_yelpcamp from '../images/yelpcamp.jpg';
+import img_bomberman from '../images/bomberman.jpg';
+import img_portfolio from '../images/portfolio.jpg';
+
 class Projects extends React.Component {
     constructor(props) {
         super(props);
@@ -14,24 +18,51 @@ class Projects extends React.Component {
             items: [
                 {
                     id:0,
-                    title: 'Yelpcamp',
-                    desc_simple: 'A camping website',
-                    desc_full: "sum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, re",
-                    img: 'https://www.hintokrivercamp.com/wp-content/uploads/2019/11/02.jpg'
+                    title: 'Yelpcamp 露營地分享網站',
+                    desc_simple: 'HTML CSS JavaScript Bootstrap 4 Node.js Express MongoDB',
+                    desc_full: 
+                        <React.Fragment>
+                            <p>Yelpcamp是一個露營地資訊分享網站，包含價格、所在位置和使用者經驗分享。使用者可以新增、更新、刪除自己分享的營地資訊及留言。</p>
+                            <h5>使用技術</h5>
+                            <ul>
+                                <li>前端: HTML / CSS / JavaScript + Bootstrap 4</li>
+                                <li>後端: Node.js / Express + MongoDB</li>
+                                <li>有完整CRUD功能並採用RESTful API</li>
+                                <li>串接Mapbox API以顯示露營地所在的地圖位置</li>
+                                <li>部署在Heroku</li>
+                            </ul>
+                        </React.Fragment>,
+                    img: img_yelpcamp
                 },
                 {
                     id:1,
-                    title: 'Yelpcamp2',
-                    desc_simple: 'A camping website',
-                    desc_full: "sum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, re",
-                    img: 'https://media-cdn.tripadvisor.com/media/photo-s/13/b8/8a/28/olakira-camp-asilia-africa.jpg'
+                    title: 'Personal Page 個人網站',
+                    desc_simple: 'React ReactBootstrap',
+                    desc_full: 
+                        <React.Fragment>
+                            <p>為了想練習React而製作的個人網站(事後覺得好像不太需要用到React)，包含了作品集、下載履歷和寄送訊息功能</p>
+                            <h5>使用技術</h5>
+                            <ul>
+                                <li>React + React Bootstrap</li>
+                                <li>使用Formspree在只使用前端的情況下實作寄信表單</li>
+                            </ul>
+                        </React.Fragment>,
+                    img: img_portfolio
                 },
                 {
                     id:2,
-                    title: 'Yelpcamp3',
-                    desc_simple: 'A camping website',
-                    desc_full: "sum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, re",
-                    img: 'https://www.hintokrivercamp.com/wp-content/uploads/2019/11/02.jpg'
+                    title: 'Bomberman',
+                    desc_simple: 'C++ OOD Allegro',
+                    desc_full: 
+                        <React.Fragment>
+                            <p>Bomberman是程式設計課的雙人期末專題，靈感來自於炸彈人遊戲。我負責主要遊戲運作邏輯(勝利、死亡條件)、地圖製作(不同障礙物類型)、敵人動作(移動、死亡)</p>
+                            <h5>使用技術</h5>
+                            <ul>
+                                <li>C++ 和 Allegro Library</li>
+                                <li>將BFS演算法應用在敵人的自動尋路</li>
+                            </ul>
+                        </React.Fragment>,
+                    img: img_bomberman
                 }
             ],
             activeModal: null
@@ -54,7 +85,7 @@ class Projects extends React.Component {
         return items.map(item => {
             return (
                 <React.Fragment>
-                <Col sm={6} md={4}>
+                <Col lg={6}>
                     <div className="project_box" onClick={() => this.handleOpen(item.id)}>
                         <Card.Img variant="top" src={item.img} />
                         <Card.Body>
@@ -62,7 +93,7 @@ class Projects extends React.Component {
                             <Card.Text>
                                 {item.desc_simple}
                             </Card.Text>
-                            <Button variant="primary">Go somewhere</Button>
+                            <Button variant="primary">More</Button>
                         </Card.Body>
                     </div>
                 </Col>

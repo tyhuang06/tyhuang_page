@@ -4,6 +4,8 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image'
 
+import Photo from '../images/about_photo.jpg'
+
 class About extends React.Component {
     render() {
         return(
@@ -13,7 +15,7 @@ class About extends React.Component {
                         <div className="about_box">
                             <Row>
                                 <Col className="about_img" md={4}>
-                                    <Image fluid src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQUaMGhEy7Z_c8xfKj1OIz7jdtqLOY67l9_YA&usqp=CAU" roundedCircle /> 
+                                    <Image fluid src={Photo} roundedCircle /> 
                                 </Col>
                                 <Col md={8}>
                                     <h3>About Me</h3>
