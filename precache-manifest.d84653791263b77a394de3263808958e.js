@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "805a0af2fe1b042c9ee405e83aab5f8a",
+    "revision": "089de13df4be7a968a3c2392642e7a37",
     "url": "/tyhuang_page/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/tyhuang_page/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "b1b7ba2d66b626cae718",
+    "revision": "c96912318871f1faf335",
     "url": "/tyhuang_page/static/css/main.c8249efc.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/tyhuang_page/static/js/2.4d6c2c4a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b1b7ba2d66b626cae718",
-    "url": "/tyhuang_page/static/js/main.94ea47c7.chunk.js"
+    "revision": "c96912318871f1faf335",
+    "url": "/tyhuang_page/static/js/main.33c66624.chunk.js"
   },
   {
     "revision": "789a7aeceb5868be17a6",
@@ -48,8 +48,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/tyhuang_page/static/media/portfolio.ba0c31a9.jpg"
   },
   {
-    "revision": "5ee1735320cf91502aee04b8689a0c18",
-    "url": "/tyhuang_page/static/media/resume_tw.5ee17353.pdf"
+    "revision": "b1701386dc9c40a7968f3b0aeff8f45d",
+    "url": "/tyhuang_page/static/media/resume_tw.b1701386.pdf"
   },
   {
     "revision": "c602c1b4b35f4ec48135a9eba27f7977",
