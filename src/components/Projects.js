@@ -27,7 +27,7 @@ class Projects extends React.Component {
                             <ul>
                                 <li>前端: HTML / CSS / JavaScript + Bootstrap 4</li>
                                 <li>後端: Node.js / Express + MongoDB</li>
-                                <li>有完整CRUD功能並採用RESTful API</li>
+                                <li>有完整CRUD功能並使用RESTful Routes</li>
                                 <li>串接Mapbox API以顯示露營地所在的地圖位置</li>
                                 <li>部署在Heroku</li>
                             </ul>

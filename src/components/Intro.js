@@ -10,7 +10,7 @@ class Intro extends React.Component {
                 <Jumbotron id='intro_content'>
                     <h1>Hi! I'm Tzu-Yu Huang</h1>
                     <p>
-                    
+
                     </p>
                 </Jumbotron>
             </Container>
