@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8bc08ce425465c478e7dee77161565f1",
+    "revision": "b0b7b264c5a0a1aee45be20cc5dca0c8",
     "url": "/tyhuang_page/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/tyhuang_page/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "320f63ecb05ca3ac88d5",
+    "revision": "7457dc51eebf466cf181",
     "url": "/tyhuang_page/static/css/main.c8249efc.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/tyhuang_page/static/js/2.4d6c2c4a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "320f63ecb05ca3ac88d5",
-    "url": "/tyhuang_page/static/js/main.aeae929c.chunk.js"
+    "revision": "7457dc51eebf466cf181",
+    "url": "/tyhuang_page/static/js/main.74c7104f.chunk.js"
   },
   {
     "revision": "789a7aeceb5868be17a6",
