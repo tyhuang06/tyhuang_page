@@ -1,22 +1,24 @@
 {
   "files": {
     "main.css": "/tyhuang_page/static/css/main.c8249efc.chunk.css",
-    "main.js": "/tyhuang_page/static/js/main.74c7104f.chunk.js",
-    "main.js.map": "/tyhuang_page/static/js/main.74c7104f.chunk.js.map",
+    "main.js": "/tyhuang_page/static/js/main.a2b360d8.chunk.js",
+    "main.js.map": "/tyhuang_page/static/js/main.a2b360d8.chunk.js.map",
     "runtime-main.js": "/tyhuang_page/static/js/runtime-main.be4d640b.js",
     "runtime-main.js.map": "/tyhuang_page/static/js/runtime-main.be4d640b.js.map",
     "static/css/2.af3c1da9.chunk.css": "/tyhuang_page/static/css/2.af3c1da9.chunk.css",
-    "static/js/2.4d6c2c4a.chunk.js": "/tyhuang_page/static/js/2.4d6c2c4a.chunk.js",
-    "static/js/2.4d6c2c4a.chunk.js.map": "/tyhuang_page/static/js/2.4d6c2c4a.chunk.js.map",
+    "static/js/2.b267529a.chunk.js": "/tyhuang_page/static/js/2.b267529a.chunk.js",
+    "static/js/2.b267529a.chunk.js.map": "/tyhuang_page/static/js/2.b267529a.chunk.js.map",
     "index.html": "/tyhuang_page/index.html",
-    "precache-manifest.33f5a73fcf4023ae736c9fcc6e7e6230.js": "/tyhuang_page/precache-manifest.33f5a73fcf4023ae736c9fcc6e7e6230.js",
+    "precache-manifest.005e1afcc36980c5aec9524af8d1bf98.js": "/tyhuang_page/precache-manifest.005e1afcc36980c5aec9524af8d1bf98.js",
     "service-worker.js": "/tyhuang_page/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/tyhuang_page/static/css/2.af3c1da9.chunk.css.map",
     "static/css/main.c8249efc.chunk.css.map": "/tyhuang_page/static/css/main.c8249efc.chunk.css.map",
-    "static/js/2.4d6c2c4a.chunk.js.LICENSE.txt": "/tyhuang_page/static/js/2.4d6c2c4a.chunk.js.LICENSE.txt",
+    "static/js/2.b267529a.chunk.js.LICENSE.txt": "/tyhuang_page/static/js/2.b267529a.chunk.js.LICENSE.txt",
     "static/media/about_photo.jpg": "/tyhuang_page/static/media/about_photo.37abc574.jpg",
     "static/media/bomberman.jpg": "/tyhuang_page/static/media/bomberman.29f1283d.jpg",
+    "static/media/color_game.jpg": "/tyhuang_page/static/media/color_game.d711020e.jpg",
     "static/media/index.css": "/tyhuang_page/static/media/laptop.6d3e94be.jpg",
+    "static/media/painter.jpg": "/tyhuang_page/static/media/painter.4a93a109.jpg",
     "static/media/portfolio.jpg": "/tyhuang_page/static/media/portfolio.ba0c31a9.jpg",
     "static/media/resume_tw.pdf": "/tyhuang_page/static/media/resume_tw.2b7a40d2.pdf",
     "static/media/yelpcamp.jpg": "/tyhuang_page/static/media/yelpcamp.c602c1b4.jpg"
@@ -24,8 +26,8 @@
   "entrypoints": [
     "static/js/runtime-main.be4d640b.js",
     "static/css/2.af3c1da9.chunk.css",
-    "static/js/2.4d6c2c4a.chunk.js",
+    "static/js/2.b267529a.chunk.js",
     "static/css/main.c8249efc.chunk.css",
-    "static/js/main.74c7104f.chunk.js"
+    "static/js/main.a2b360d8.chunk.js"
   ]
 }
